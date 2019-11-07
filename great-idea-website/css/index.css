@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -47,7 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-/* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
@@ -63,7 +62,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
 .container {
   width: 880px;
   margin: 0 auto;
@@ -103,7 +101,7 @@ header .logo {
 
 
 
-.topElement .topElementText {
+.resource .resource-text {
   display: inline-block;
   vertical-align: top;
   font-size: 77px;
@@ -112,7 +110,7 @@ header .logo {
   padding: 0px 75px;
 }
 
-.topElement .topElementText button {
+.resource .resource-text button {
   background: white;
   vertical-align: top;
   margin-top: 6px;
@@ -122,12 +120,67 @@ header .logo {
   cursor: pointer;
 }
 
-.topElement .topElementText button:hover {
+.resource .resource-text button:hover {
   background: black;
   color: white;
 }
 
-.topElement img {
+.resource img {
   display: inline-block;
   margin-top: 69px;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+}
+
+.main-content .top-content {
+  padding: 0 10px;
+}
+
+.main-content .top-content .text-content {
+  width: 410px;
+  display: inline-block;
+  margin-right: 34px;
+}
+
+.main-content .top-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.main-content .middle-img {
+  margin-top: 45px;
+}
+
+.main-content .bottom-content {
+  margin-top: 37px;
+  padding: 0 10px;
+}
+
+.main-content .bottom-content .text-content {
+  width: 275px;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.main-content .bottom-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
 }
